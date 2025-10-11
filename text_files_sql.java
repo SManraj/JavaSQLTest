@@ -14,7 +14,7 @@ public class text_files_sql {
         this.text_path = text_path;
     }
 
-    public void check_path() {
+    public void checkPath() {
 
         File file1 = new File(this.text_output_path);
         File file2 = new File(this.text_path);
@@ -28,12 +28,27 @@ public class text_files_sql {
         }
 
     }
+
+    public void addFileName() {
+
+    }
+
+    public void addWord_Count() {
+
+    }
+
+    public void addDateAdded() {
+
+    }
     // SQL Connection in main 
 
     public static void main(String args[]) {
-        text_files_sql testPath = new text_files_sql("test-files-output-copy/", "text-files/");
-        testPath.check_path();
 
+        /**
+         * This calls checkPpath method text_files_sql testPath = new
+         * text_files_sql("test-files-output-copy/", "text-files/");
+         * testPath.checkPath();
+         */
     }
 
 }
