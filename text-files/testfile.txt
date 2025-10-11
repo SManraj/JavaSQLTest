@@ -1,0 +1,3 @@
+What is up guys, my name is Manraj! Today we are trying to tokenize this file, 
+in order to get the words to be separated when they contain punctuations like, this? or, this! or even this. 
+I hope this works well!
